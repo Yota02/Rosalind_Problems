@@ -1,7 +1,7 @@
 # 🧬 Rosalind — Bioinformatics Progress
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Progress-7%2F105-00BFFF" alt="Progress"/>
+  <img src="https://img.shields.io/badge/Progress-8%2F105-00BFFF" alt="Progress"/>
   <img src="https://img.shields.io/badge/Python-3.12+-blue" alt="Python"/>
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
 </div>
@@ -9,15 +9,15 @@
 
 ## 📈 Progression
 
-**7 / 105** problèmes résolus (6.7%)
+**8 / 105** problèmes résolus (7.6%)
 
 ```
-██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 6.7%
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 7.6%
 ```
 
-**🟢 Facile** : 7/21 (33.3%)
+**🟢 Facile** : 8/21 (38.1%)
 ```
-██████████░░░░░░░░░░░░░░░░░░░░ 33.3%
+███████████░░░░░░░░░░░░░░░░░░░ 38.1%
 ```
 
 **🟡 Moyen** : 0/56 (0.0%)
@@ -56,7 +56,7 @@
 | ID | Titre | Statut | Difficulté |
 |---|---|---|---|
 | **FIB** | Rabbits and Recurrence Relations | ⬜ | 🟢 Facile |
-| **IPRB** | Mendel's First Law | ⬜ | 🟢 Facile |
+| **IPRB** | Mendel's First Law | ✅ | 🟢 Facile |
 | **PERM** | Enumerating Gene Orders | ✅ | 🟢 Facile |
 | **PROB** | Introduction to Random Strings | ⬜ | 🟡 Moyen |
 | **SIGN** | Enumerating Oriented Gene Orderings | ⬜ | 🟡 Moyen |

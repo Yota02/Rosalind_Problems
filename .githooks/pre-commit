@@ -1,0 +1,6 @@
+#!/bin/sh
+# Pre-commit hook: update Rosalind progress stats in README.md
+
+REPO_ROOT=$(git rev-parse --show-toplevel 2>/dev/null || dirname "$0"/..)
+
+python3 "$REPO_ROOT/scripts/update_stats.py" && git add "$REPO_ROOT/README.md"

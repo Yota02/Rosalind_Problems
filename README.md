@@ -1,7 +1,7 @@
 # 🧬 Rosalind — Bioinformatics Progress
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Progress-9%2F105-00BFFF" alt="Progress"/>
+  <img src="https://img.shields.io/badge/Progress-10%2F105-00BFFF" alt="Progress"/>
   <img src="https://img.shields.io/badge/Python-3.12+-blue" alt="Python"/>
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
 </div>
@@ -9,15 +9,15 @@
 
 ## 📈 Progression
 
-**9 / 105** problèmes résolus (8.6%)
+**10 / 105** problèmes résolus (9.5%)
 
 ```
-██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 8.6%
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 9.5%
 ```
 
-**🟢 Facile** : 9/21 (42.9%)
+**🟢 Facile** : 10/21 (47.6%)
 ```
-████████████░░░░░░░░░░░░░░░░░░ 42.9%
+██████████████░░░░░░░░░░░░░░░░ 47.6%
 ```
 
 **🟡 Moyen** : 0/56 (0.0%)
@@ -41,7 +41,7 @@
 | **REVC** | Complementing a Strand of DNA | ✅ | 🟢 Facile |
 | **HAMM** | Counting Point Mutations | ✅ | 🟢 Facile |
 | **SUBS** | Finding a Motif in DNA | ✅ | 🟢 Facile |
-| **REVP** | Locating Restriction Sites | ⬜ | 🟢 Facile |
+| **REVP** | Locating Restriction Sites | ✅ | 🟢 Facile |
 | **LEXF** | Enumerating k-mers Lexicographically | ⬜ | 🟢 Facile |
 | **LEXV** | Ordering Strings of Varying Length Lexicographically | ⬜ | 🟡 Moyen |
 | **KMER** | k-Mer Composition | ⬜ | 🟡 Moyen |

@@ -1,7 +1,7 @@
 # 🧬 Rosalind — Bioinformatics Progress
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Progress-10%2F105-00BFFF" alt="Progress"/>
+  <img src="https://img.shields.io/badge/Progress-11%2F105-00BFFF" alt="Progress"/>
   <img src="https://img.shields.io/badge/Python-3.12+-blue" alt="Python"/>
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
 </div>
@@ -9,15 +9,15 @@
 
 ## 📈 Progression
 
-**10 / 105** problèmes résolus (9.5%)
+**11 / 105** problèmes résolus (10.5%)
 
 ```
-██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 9.5%
+███░░░░░░░░░░░░░░░░░░░░░░░░░░░ 10.5%
 ```
 
-**🟢 Facile** : 10/21 (47.6%)
+**🟢 Facile** : 11/21 (52.4%)
 ```
-██████████████░░░░░░░░░░░░░░░░ 47.6%
+███████████████░░░░░░░░░░░░░░░ 52.4%
 ```
 
 **🟡 Moyen** : 0/56 (0.0%)
@@ -76,7 +76,7 @@
 | **GC** | Computing GC Content | ⬜ | 🟢 Facile |
 | **IEV** | Calculating Expected Offspring | ✅ | 🟢 Facile |
 | **PROT** | Translating RNA into Protein | ✅ | 🟢 Facile |
-| **PRTM** | Calculating Protein Mass | ⬜ | 🟢 Facile |
+| **PRTM** | Calculating Protein Mass | ✅ | 🟢 Facile |
 | **SPLC** | RNA Splicing | ⬜ | 🟢 Facile |
 | **ORF** | Open Reading Frames | ⬜ | 🟢 Facile |
 | **SSEQ** | Finding a Spliced Motif | ⬜ | 🟡 Moyen |

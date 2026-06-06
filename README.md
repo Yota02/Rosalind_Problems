@@ -1,7 +1,7 @@
 # 🧬 Rosalind — Bioinformatics Progress
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Progress-0%2F105-00BFFF" alt="Progress"/>
+  <img src="https://img.shields.io/badge/Progress-1%2F105-00BFFF" alt="Progress"/>
   <img src="https://img.shields.io/badge/Python-3.12+-blue" alt="Python"/>
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
 </div>
@@ -9,15 +9,15 @@
 
 ## 📈 Progression
 
-**0 / 105** problèmes résolus (0.0%)
+**1 / 105** problèmes résolus (1.0%)
 
 ```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.0%
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.0%
 ```
 
-**🟢 Facile** : 0/21 (0.0%)
+**🟢 Facile** : 1/21 (4.8%)
 ```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.0%
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.8%
 ```
 
 **🟡 Moyen** : 0/56 (0.0%)
@@ -36,7 +36,7 @@
 
 | ID | Titre | Statut | Difficulté |
 |---|---|---|---|
-| **DNA** | Counting DNA Nucleotides | ⬜ | 🟢 Facile |
+| **DNA** | Counting DNA Nucleotides | ✅ | 🟢 Facile |
 | **RNA** | Transcribing DNA into RNA | ⬜ | 🟢 Facile |
 | **REVC** | Complementing a Strand of DNA | ⬜ | 🟢 Facile |
 | **HAMM** | Counting Point Mutations | ⬜ | 🟢 Facile |

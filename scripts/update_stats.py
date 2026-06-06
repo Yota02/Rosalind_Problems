@@ -172,9 +172,11 @@ def scan_solved() -> set[str]:
             for prob_dir in os.listdir(theme_path):
                 sol_path = os.path.join(theme_path, prob_dir, "solution.py")
                 if os.path.isfile(sol_path):
-                    # Extract ID from the docstring
                     with open(sol_path) as f:
                         content = f.read()
+                    # Skip unsolved templates (still contain TODO)
+                    if "TODO" in content:
+                        continue
                     m = re.search(r'^ID:\s*(\S+)', content, re.MULTILINE)
                     if m:
                         solved.add(m.group(1))
@@ -222,23 +224,21 @@ def build_readme(solved: set[str]) -> str:
 
     # Table by thematic
     lines.append("## 📋 Problèmes\n")
-    lines.append("| ID | Titre | Statut | Difficulté | Thématique | Lien |")
-    lines.append("|---|---|---|---|---|---|")
+    labels = {"easy": "🟢 Facile", "medium": "🟡 Moyen", "hard": "🔴 Difficile"}
 
     for theme_slug, theme_label in THEMATIC_ORDER:
         theme_problems = [p for p in PROBLEMS if p[3] == theme_slug]
         if not theme_problems:
             continue
 
-        lines.append(f"| **{theme_label}** | | | | | |")
-        labels = {"easy": "🟢 Facile", "medium": "🟡 Moyen", "hard": "🔴 Difficile"}
+        lines.append(f"### {theme_label}\n")
+        lines.append("| ID | Titre | Statut | Difficulté |")
+        lines.append("|---|---|---|---|")
 
         for pid, title, diff, theme in theme_problems:
             status = "✅" if pid in solved else "⬜"
             diff_label = labels.get(diff, diff)
-            sol_path = _solution_path(pid)
-            link = f"[Voir]({sol_path})" if sol_path else "—"
-            lines.append(f"| **{pid}** | {title} | {status} | {diff_label} | {theme_label} | {link} |")
+            lines.append(f"| **{pid}** | {title} | {status} | {diff_label} |")
 
         lines.append("")
 
@@ -249,24 +249,6 @@ def build_readme(solved: set[str]) -> str:
     )
 
     return "\n".join(lines)
-
-
-def _solution_path(pid: str) -> str | None:
-    """Find the solution.py path for a problem ID, relative to repo root."""
-    for diff_dir in DIFFICULTY_DIRS:
-        diff_path = os.path.join(SOLUTIONS_DIR, diff_dir)
-        if not os.path.isdir(diff_path):
-            continue
-        for theme_dir in os.listdir(diff_path):
-            theme_path = os.path.join(diff_path, theme_dir)
-            if not os.path.isdir(theme_path):
-                continue
-            for prob_dir in os.listdir(theme_path):
-                if prob_dir.startswith(pid + "-") or prob_dir == pid:
-                    rel = os.path.join("python", diff_dir, theme_dir, prob_dir, "solution.py")
-                    if os.path.isfile(os.path.join(REPO_ROOT, rel)):
-                        return rel
-    return None
 
 
 def main():

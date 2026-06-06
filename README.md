@@ -32,138 +32,175 @@
 
 ## 📋 Problèmes
 
-| ID | Titre | Statut | Difficulté | Thématique | Lien |
-|---|---|---|---|---|---|
-| **🧬 String Algorithms** | | | | | |
-| **DNA** | Counting DNA Nucleotides | ✅ | 🟢 Facile | 🧬 String Algorithms | [Voir](python/01-easy/string-algorithms/DNA-counting-nucleotides/solution.py) |
-| **RNA** | Transcribing DNA into RNA | ✅ | 🟢 Facile | 🧬 String Algorithms | [Voir](python/01-easy/string-algorithms/RNA-transcribing/solution.py) |
-| **REVC** | Complementing a Strand of DNA | ✅ | 🟢 Facile | 🧬 String Algorithms | [Voir](python/01-easy/string-algorithms/REVC-complementing-dna/solution.py) |
-| **HAMM** | Counting Point Mutations | ⬜ | 🟢 Facile | 🧬 String Algorithms | — |
-| **SUBS** | Finding a Motif in DNA | ⬜ | 🟢 Facile | 🧬 String Algorithms | — |
-| **REVP** | Locating Restriction Sites | ⬜ | 🟢 Facile | 🧬 String Algorithms | — |
-| **LEXF** | Enumerating k-mers Lexicographically | ⬜ | 🟢 Facile | 🧬 String Algorithms | — |
-| **LEXV** | Ordering Strings of Varying Length Lexicographically | ⬜ | 🟡 Moyen | 🧬 String Algorithms | — |
-| **KMER** | k-Mer Composition | ⬜ | 🟡 Moyen | 🧬 String Algorithms | — |
-| **KMP** | Speeding Up Motif Finding | ⬜ | 🟡 Moyen | 🧬 String Algorithms | — |
-| **TRIE** | Introduction to Pattern Matching | ⬜ | 🟡 Moyen | 🧬 String Algorithms | — |
-| **SUFF** | Encoding Suffix Trees | ⬜ | 🔴 Difficile | 🧬 String Algorithms | — |
-| **LREP** | Finding the Longest Multiple Repeat | ⬜ | 🔴 Difficile | 🧬 String Algorithms | — |
-| **MREP** | Identifying Maximal Repeats | ⬜ | 🔴 Difficile | 🧬 String Algorithms | — |
+### 🧬 String Algorithms
 
-| **📊 Combinatorics & Probability** | | | | | |
-| **FIB** | Rabbits and Recurrence Relations | ✅ | 🟢 Facile | 📊 Combinatorics & Probability | [Voir](python/01-easy/combinatorics/FIB-rabbits-recursion/solution.py) |
-| **IPRB** | Mendel's First Law | ⬜ | 🟢 Facile | 📊 Combinatorics & Probability | — |
-| **PERM** | Enumerating Gene Orders | ⬜ | 🟢 Facile | 📊 Combinatorics & Probability | — |
-| **PROB** | Introduction to Random Strings | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
-| **SIGN** | Enumerating Oriented Gene Orderings | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
-| **PPER** | Partial Permutations | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
-| **PMCH** | Perfect Matchings and RNA Secondary Structures | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
-| **LIA** | Independent Alleles | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
-| **MRNA** | Inferring mRNA from Protein | ⬜ | 🟢 Facile | 📊 Combinatorics & Probability | — |
-| **RSTR** | Matching Random Motifs | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
-| **EVAL** | Expected Number of Restriction Sites | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
-| **INDC** | Independent Segregation of Chromosomes | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
-| **ASPC** | Introduction to Alternative Splicing | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **DNA** | Counting DNA Nucleotides | ✅ | 🟢 Facile |
+| **RNA** | Transcribing DNA into RNA | ✅ | 🟢 Facile |
+| **REVC** | Complementing a Strand of DNA | ✅ | 🟢 Facile |
+| **HAMM** | Counting Point Mutations | ⬜ | 🟢 Facile |
+| **SUBS** | Finding a Motif in DNA | ⬜ | 🟢 Facile |
+| **REVP** | Locating Restriction Sites | ⬜ | 🟢 Facile |
+| **LEXF** | Enumerating k-mers Lexicographically | ⬜ | 🟢 Facile |
+| **LEXV** | Ordering Strings of Varying Length Lexicographically | ⬜ | 🟡 Moyen |
+| **KMER** | k-Mer Composition | ⬜ | 🟡 Moyen |
+| **KMP** | Speeding Up Motif Finding | ⬜ | 🟡 Moyen |
+| **TRIE** | Introduction to Pattern Matching | ⬜ | 🟡 Moyen |
+| **SUFF** | Encoding Suffix Trees | ⬜ | 🔴 Difficile |
+| **LREP** | Finding the Longest Multiple Repeat | ⬜ | 🔴 Difficile |
+| **MREP** | Identifying Maximal Repeats | ⬜ | 🔴 Difficile |
 
-| **🧪 Sequence Basics** | | | | | |
-| **GC** | Computing GC Content | ✅ | 🟢 Facile | 🧪 Sequence Basics | [Voir](python/01-easy/combinatorics/GC-computing-gc-content/solution.py) |
-| **IEV** | Calculating Expected Offspring | ⬜ | 🟢 Facile | 🧪 Sequence Basics | — |
-| **PROT** | Translating RNA into Protein | ⬜ | 🟢 Facile | 🧪 Sequence Basics | — |
-| **PRTM** | Calculating Protein Mass | ⬜ | 🟢 Facile | 🧪 Sequence Basics | — |
-| **SPLC** | RNA Splicing | ⬜ | 🟢 Facile | 🧪 Sequence Basics | — |
-| **ORF** | Open Reading Frames | ⬜ | 🟢 Facile | 🧪 Sequence Basics | — |
-| **SSEQ** | Finding a Spliced Motif | ⬜ | 🟡 Moyen | 🧪 Sequence Basics | — |
-| **TRAN** | Transitions and Transversions | ⬜ | 🟡 Moyen | 🧪 Sequence Basics | — |
+### 📊 Combinatorics & Probability
 
-| **🔢 Set Theory** | | | | | |
-| **SETO** | Introduction to Set Operations | ⬜ | 🟡 Moyen | 🔢 Set Theory | — |
-| **SSET** | Counting Subsets | ⬜ | 🟡 Moyen | 🔢 Set Theory | — |
-| **PDST** | Creating a Distance Matrix | ⬜ | 🟡 Moyen | 🔢 Set Theory | — |
-| **INOD** | Counting Phylogenetic Ancestors | ⬜ | 🟡 Moyen | 🔢 Set Theory | — |
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **FIB** | Rabbits and Recurrence Relations | ✅ | 🟢 Facile |
+| **IPRB** | Mendel's First Law | ⬜ | 🟢 Facile |
+| **PERM** | Enumerating Gene Orders | ⬜ | 🟢 Facile |
+| **PROB** | Introduction to Random Strings | ⬜ | 🟡 Moyen |
+| **SIGN** | Enumerating Oriented Gene Orderings | ⬜ | 🟡 Moyen |
+| **PPER** | Partial Permutations | ⬜ | 🟡 Moyen |
+| **PMCH** | Perfect Matchings and RNA Secondary Structures | ⬜ | 🟡 Moyen |
+| **LIA** | Independent Alleles | ⬜ | 🟡 Moyen |
+| **MRNA** | Inferring mRNA from Protein | ⬜ | 🟢 Facile |
+| **RSTR** | Matching Random Motifs | ⬜ | 🟡 Moyen |
+| **EVAL** | Expected Number of Restriction Sites | ⬜ | 🟡 Moyen |
+| **INDC** | Independent Segregation of Chromosomes | ⬜ | 🟡 Moyen |
+| **ASPC** | Introduction to Alternative Splicing | ⬜ | 🟡 Moyen |
 
-| **🔍 String Search** | | | | | |
-| **LCSM** | Finding a Shared Motif | ⬜ | 🟢 Facile | 🔍 String Search | — |
-| **CORR** | Error Correction in Reads | ⬜ | 🟡 Moyen | 🔍 String Search | — |
-| **ITWV** | Finding Disjoint Motifs in a Gene | ⬜ | 🟡 Moyen | 🔍 String Search | — |
-| **KSIM** | Finding All Similar Motifs | ⬜ | 🔴 Difficile | 🔍 String Search | — |
+### 🧪 Sequence Basics
 
-| **📈 Dynamic Programming** | | | | | |
-| **LGIS** | Longest Increasing Subsequence | ⬜ | 🟡 Moyen | 📈 Dynamic Programming | — |
-| **LCSQ** | Finding a Shared Spliced Motif | ⬜ | 🟡 Moyen | 📈 Dynamic Programming | — |
-| **SCSP** | Interleaving Two Motifs | ⬜ | 🟡 Moyen | 📈 Dynamic Programming | — |
-| **EDIT** | Edit Distance | ⬜ | 🟡 Moyen | 📈 Dynamic Programming | — |
-| **EDTA** | Edit Distance Alignment | ⬜ | 🟡 Moyen | 📈 Dynamic Programming | — |
-| **CTEA** | Counting Optimal Alignments | ⬜ | 🟡 Moyen | 📈 Dynamic Programming | — |
-| **MOTZ** | Motzkin Numbers and RNA Secondary Structures | ⬜ | 🟡 Moyen | 📈 Dynamic Programming | — |
-| **CAT** | Catalan Numbers and RNA Secondary Structures | ⬜ | 🟡 Moyen | 📈 Dynamic Programming | — |
-| **MMCH** | Maximum Matchings and RNA Secondary Structures | ⬜ | 🟡 Moyen | 📈 Dynamic Programming | — |
-| **RNAS** | Wobble Bonding and RNA Secondary Structures | ⬜ | 🟡 Moyen | 📈 Dynamic Programming | — |
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **GC** | Computing GC Content | ✅ | 🟢 Facile |
+| **IEV** | Calculating Expected Offspring | ⬜ | 🟢 Facile |
+| **PROT** | Translating RNA into Protein | ⬜ | 🟢 Facile |
+| **PRTM** | Calculating Protein Mass | ⬜ | 🟢 Facile |
+| **SPLC** | RNA Splicing | ⬜ | 🟢 Facile |
+| **ORF** | Open Reading Frames | ⬜ | 🟢 Facile |
+| **SSEQ** | Finding a Spliced Motif | ⬜ | 🟡 Moyen |
+| **TRAN** | Transitions and Transversions | ⬜ | 🟡 Moyen |
 
-| **🕸️ Graph Theory** | | | | | |
-| **GRPH** | Overlap Graphs | ⬜ | 🟢 Facile | 🕸️ Graph Theory | — |
-| **TREE** | Completing a Tree | ⬜ | 🟡 Moyen | 🕸️ Graph Theory | — |
-| **DBRU** | Constructing a De Bruijn Graph | ⬜ | 🟡 Moyen | 🕸️ Graph Theory | — |
-| **NWCK** | Distances in Trees | ⬜ | 🟡 Moyen | 🕸️ Graph Theory | — |
-| **NKEW** | Newick Format with Edge Weights | ⬜ | 🟡 Moyen | 🕸️ Graph Theory | — |
-| **QRT** | Quartets | ⬜ | 🔴 Difficile | 🕸️ Graph Theory | — |
-| **QRTD** | Quartet Distance | ⬜ | 🔴 Difficile | 🕸️ Graph Theory | — |
-| **CNTQ** | Counting Quartets | ⬜ | 🔴 Difficile | 🕸️ Graph Theory | — |
+### 🔢 Set Theory
 
-| **🧩 Sequence Alignment** | | | | | |
-| **CONS** | Consensus and Profile | ⬜ | 🟢 Facile | 🧩 Sequence Alignment | — |
-| **GLOB** | Global Alignment with Scoring Matrix | ⬜ | 🟡 Moyen | 🧩 Sequence Alignment | — |
-| **LOCA** | Local Alignment with Scoring Matrix | ⬜ | 🟡 Moyen | 🧩 Sequence Alignment | — |
-| **GCON** | Global Alignment with Constant Gap Penalty | ⬜ | 🟡 Moyen | 🧩 Sequence Alignment | — |
-| **GAFF** | Global Alignment with Affine Gap Penalty | ⬜ | 🟡 Moyen | 🧩 Sequence Alignment | — |
-| **OAP** | Overlap Alignment | ⬜ | 🔴 Difficile | 🧩 Sequence Alignment | — |
-| **SMGB** | Semiglobal Alignment | ⬜ | 🔴 Difficile | 🧩 Sequence Alignment | — |
-| **SIMS** | Finding a Motif with Modifications | ⬜ | 🔴 Difficile | 🧩 Sequence Alignment | — |
-| **LAFF** | Local Alignment with Affine Gap Penalty | ⬜ | 🔴 Difficile | 🧩 Sequence Alignment | — |
-| **MULT** | Multiple Alignment | ⬜ | 🔴 Difficile | 🧩 Sequence Alignment | — |
-| **MGAP** | Maximizing Gap Symbols of an Optimal Alignment | ⬜ | 🔴 Difficile | 🧩 Sequence Alignment | — |
-| **OSYM** | Isolating Symbols in Alignments | ⬜ | 🔴 Difficile | 🧩 Sequence Alignment | — |
-| **RSUB** | Identifying Reversing Substitutions | ⬜ | 🔴 Difficile | 🧩 Sequence Alignment | — |
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **SETO** | Introduction to Set Operations | ⬜ | 🟡 Moyen |
+| **SSET** | Counting Subsets | ⬜ | 🟡 Moyen |
+| **PDST** | Creating a Distance Matrix | ⬜ | 🟡 Moyen |
+| **INOD** | Counting Phylogenetic Ancestors | ⬜ | 🟡 Moyen |
 
-| **🧬 Genome Assembly** | | | | | |
-| **LONG** | Genome Assembly as Shortest Superstring | ⬜ | 🟡 Moyen | 🧬 Genome Assembly | — |
-| **PCOV** | Genome Assembly with Perfect Coverage | ⬜ | 🟡 Moyen | 🧬 Genome Assembly | — |
-| **GASM** | Genome Assembly Using Reads | ⬜ | 🔴 Difficile | 🧬 Genome Assembly | — |
-| **GREP** | Genome Assembly with Perfect Coverage and Repeats | ⬜ | 🔴 Difficile | 🧬 Genome Assembly | — |
-| **ASMQ** | Assessing Assembly Quality with N50 and N75 | ⬜ | 🔴 Difficile | 🧬 Genome Assembly | — |
-| **LING** | Linguistic Complexity of a Genome | ⬜ | 🔴 Difficile | 🧬 Genome Assembly | — |
-| **PDPL** | Creating a Restriction Map | ⬜ | 🔴 Difficile | 🧬 Genome Assembly | — |
+### 🔍 String Search
 
-| **⚗️ Proteomics & Spectrometry** | | | | | |
-| **MPRT** | Finding a Protein Motif | ⬜ | 🟡 Moyen | ⚗️ Proteomics & Spectrometry | — |
-| **SPEC** | Inferring Protein from Spectrum | ⬜ | 🟡 Moyen | ⚗️ Proteomics & Spectrometry | — |
-| **CONV** | Comparing Spectra with the Spectral Convolution | ⬜ | 🟡 Moyen | ⚗️ Proteomics & Spectrometry | — |
-| **FULL** | Inferring Peptide from Full Spectrum | ⬜ | 🟡 Moyen | ⚗️ Proteomics & Spectrometry | — |
-| **PRSM** | Matching a Spectrum to a Protein | ⬜ | 🔴 Difficile | ⚗️ Proteomics & Spectrometry | — |
-| **SGRA** | Using the Spectrum Graph to Infer Peptides | ⬜ | 🟡 Moyen | ⚗️ Proteomics & Spectrometry | — |
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **LCSM** | Finding a Shared Motif | ⬜ | 🟢 Facile |
+| **CORR** | Error Correction in Reads | ⬜ | 🟡 Moyen |
+| **ITWV** | Finding Disjoint Motifs in a Gene | ⬜ | 🟡 Moyen |
+| **KSIM** | Finding All Similar Motifs | ⬜ | 🔴 Difficile |
 
-| **🧫 Population Genetics** | | | | | |
-| **AFRQ** | Counting Disease Carriers | ⬜ | 🟡 Moyen | 🧫 Population Genetics | — |
-| **WFMD** | The Wright-Fisher Model of Genetic Drift | ⬜ | 🟡 Moyen | 🧫 Population Genetics | — |
-| **FOUN** | The Founder Effect and Genetic Drift | ⬜ | 🟡 Moyen | 🧫 Population Genetics | — |
-| **EBIN** | Wright-Fisher's Expected Behavior | ⬜ | 🟡 Moyen | 🧫 Population Genetics | — |
-| **SEXL** | Sex-Linked Inheritance | ⬜ | 🟡 Moyen | 🧫 Population Genetics | — |
+### 📈 Dynamic Programming
 
-| **🌳 Phylogeny** | | | | | |
-| **CTBL** | Creating a Character Table | ⬜ | 🟡 Moyen | 🌳 Phylogeny | — |
-| **CSTR** | Creating a Character Table from Genetic Strings | ⬜ | 🟡 Moyen | 🌳 Phylogeny | — |
-| **CHBP** | Character-Based Phylogeny | ⬜ | 🔴 Difficile | 🌳 Phylogeny | — |
-| **EUBT** | Enumerating Unrooted Binary Trees | ⬜ | 🔴 Difficile | 🌳 Phylogeny | — |
-| **ROOT** | Counting Rooted Binary Trees | ⬜ | 🔴 Difficile | 🌳 Phylogeny | — |
-| **CUNR** | Counting Unrooted Binary Trees | ⬜ | 🟡 Moyen | 🌳 Phylogeny | — |
-| **SPTD** | Phylogeny Comparison with Split Distance | ⬜ | 🔴 Difficile | 🌳 Phylogeny | — |
-| **ALPH** | Alignment-Based Phylogeny | ⬜ | 🔴 Difficile | 🌳 Phylogeny | — |
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **LGIS** | Longest Increasing Subsequence | ⬜ | 🟡 Moyen |
+| **LCSQ** | Finding a Shared Spliced Motif | ⬜ | 🟡 Moyen |
+| **SCSP** | Interleaving Two Motifs | ⬜ | 🟡 Moyen |
+| **EDIT** | Edit Distance | ⬜ | 🟡 Moyen |
+| **EDTA** | Edit Distance Alignment | ⬜ | 🟡 Moyen |
+| **CTEA** | Counting Optimal Alignments | ⬜ | 🟡 Moyen |
+| **MOTZ** | Motzkin Numbers and RNA Secondary Structures | ⬜ | 🟡 Moyen |
+| **CAT** | Catalan Numbers and RNA Secondary Structures | ⬜ | 🟡 Moyen |
+| **MMCH** | Maximum Matchings and RNA Secondary Structures | ⬜ | 🟡 Moyen |
+| **RNAS** | Wobble Bonding and RNA Secondary Structures | ⬜ | 🟡 Moyen |
 
-| **⚙️ Advanced Topics** | | | | | |
-| **MEND** | Inferring Genotype from a Pedigree | ⬜ | 🔴 Difficile | ⚙️ Advanced Topics | — |
-| **CSET** | Fixing an Inconsistent Character Set | ⬜ | 🔴 Difficile | ⚙️ Advanced Topics | — |
-| **SORT** | Sorting by Reversals | ⬜ | 🟡 Moyen | ⚙️ Advanced Topics | — |
-| **REAR** | Reversal Distance | ⬜ | 🟡 Moyen | ⚙️ Advanced Topics | — |
-| **FIBD** | Mortal Fibonacci Rabbits | ⬜ | 🟢 Facile | ⚙️ Advanced Topics | — |
+### 🕸️ Graph Theory
+
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **GRPH** | Overlap Graphs | ⬜ | 🟢 Facile |
+| **TREE** | Completing a Tree | ⬜ | 🟡 Moyen |
+| **DBRU** | Constructing a De Bruijn Graph | ⬜ | 🟡 Moyen |
+| **NWCK** | Distances in Trees | ⬜ | 🟡 Moyen |
+| **NKEW** | Newick Format with Edge Weights | ⬜ | 🟡 Moyen |
+| **QRT** | Quartets | ⬜ | 🔴 Difficile |
+| **QRTD** | Quartet Distance | ⬜ | 🔴 Difficile |
+| **CNTQ** | Counting Quartets | ⬜ | 🔴 Difficile |
+
+### 🧩 Sequence Alignment
+
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **CONS** | Consensus and Profile | ⬜ | 🟢 Facile |
+| **GLOB** | Global Alignment with Scoring Matrix | ⬜ | 🟡 Moyen |
+| **LOCA** | Local Alignment with Scoring Matrix | ⬜ | 🟡 Moyen |
+| **GCON** | Global Alignment with Constant Gap Penalty | ⬜ | 🟡 Moyen |
+| **GAFF** | Global Alignment with Affine Gap Penalty | ⬜ | 🟡 Moyen |
+| **OAP** | Overlap Alignment | ⬜ | 🔴 Difficile |
+| **SMGB** | Semiglobal Alignment | ⬜ | 🔴 Difficile |
+| **SIMS** | Finding a Motif with Modifications | ⬜ | 🔴 Difficile |
+| **LAFF** | Local Alignment with Affine Gap Penalty | ⬜ | 🔴 Difficile |
+| **MULT** | Multiple Alignment | ⬜ | 🔴 Difficile |
+| **MGAP** | Maximizing Gap Symbols of an Optimal Alignment | ⬜ | 🔴 Difficile |
+| **OSYM** | Isolating Symbols in Alignments | ⬜ | 🔴 Difficile |
+| **RSUB** | Identifying Reversing Substitutions | ⬜ | 🔴 Difficile |
+
+### 🧬 Genome Assembly
+
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **LONG** | Genome Assembly as Shortest Superstring | ⬜ | 🟡 Moyen |
+| **PCOV** | Genome Assembly with Perfect Coverage | ⬜ | 🟡 Moyen |
+| **GASM** | Genome Assembly Using Reads | ⬜ | 🔴 Difficile |
+| **GREP** | Genome Assembly with Perfect Coverage and Repeats | ⬜ | 🔴 Difficile |
+| **ASMQ** | Assessing Assembly Quality with N50 and N75 | ⬜ | 🔴 Difficile |
+| **LING** | Linguistic Complexity of a Genome | ⬜ | 🔴 Difficile |
+| **PDPL** | Creating a Restriction Map | ⬜ | 🔴 Difficile |
+
+### ⚗️ Proteomics & Spectrometry
+
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **MPRT** | Finding a Protein Motif | ⬜ | 🟡 Moyen |
+| **SPEC** | Inferring Protein from Spectrum | ⬜ | 🟡 Moyen |
+| **CONV** | Comparing Spectra with the Spectral Convolution | ⬜ | 🟡 Moyen |
+| **FULL** | Inferring Peptide from Full Spectrum | ⬜ | 🟡 Moyen |
+| **PRSM** | Matching a Spectrum to a Protein | ⬜ | 🔴 Difficile |
+| **SGRA** | Using the Spectrum Graph to Infer Peptides | ⬜ | 🟡 Moyen |
+
+### 🧫 Population Genetics
+
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **AFRQ** | Counting Disease Carriers | ⬜ | 🟡 Moyen |
+| **WFMD** | The Wright-Fisher Model of Genetic Drift | ⬜ | 🟡 Moyen |
+| **FOUN** | The Founder Effect and Genetic Drift | ⬜ | 🟡 Moyen |
+| **EBIN** | Wright-Fisher's Expected Behavior | ⬜ | 🟡 Moyen |
+| **SEXL** | Sex-Linked Inheritance | ⬜ | 🟡 Moyen |
+
+### 🌳 Phylogeny
+
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **CTBL** | Creating a Character Table | ⬜ | 🟡 Moyen |
+| **CSTR** | Creating a Character Table from Genetic Strings | ⬜ | 🟡 Moyen |
+| **CHBP** | Character-Based Phylogeny | ⬜ | 🔴 Difficile |
+| **EUBT** | Enumerating Unrooted Binary Trees | ⬜ | 🔴 Difficile |
+| **ROOT** | Counting Rooted Binary Trees | ⬜ | 🔴 Difficile |
+| **CUNR** | Counting Unrooted Binary Trees | ⬜ | 🟡 Moyen |
+| **SPTD** | Phylogeny Comparison with Split Distance | ⬜ | 🔴 Difficile |
+| **ALPH** | Alignment-Based Phylogeny | ⬜ | 🔴 Difficile |
+
+### ⚙️ Advanced Topics
+
+| ID | Titre | Statut | Difficulté |
+|---|---|---|---|
+| **MEND** | Inferring Genotype from a Pedigree | ⬜ | 🔴 Difficile |
+| **CSET** | Fixing an Inconsistent Character Set | ⬜ | 🔴 Difficile |
+| **SORT** | Sorting by Reversals | ⬜ | 🟡 Moyen |
+| **REAR** | Reversal Distance | ⬜ | 🟡 Moyen |
+| **FIBD** | Mortal Fibonacci Rabbits | ⬜ | 🟢 Facile |
 
 ---
 

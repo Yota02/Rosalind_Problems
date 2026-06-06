@@ -1,7 +1,7 @@
 # 🧬 Rosalind — Bioinformatics Progress
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Progress-8%2F105-00BFFF" alt="Progress"/>
+  <img src="https://img.shields.io/badge/Progress-9%2F105-00BFFF" alt="Progress"/>
   <img src="https://img.shields.io/badge/Python-3.12+-blue" alt="Python"/>
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
 </div>
@@ -9,15 +9,15 @@
 
 ## 📈 Progression
 
-**8 / 105** problèmes résolus (7.6%)
+**9 / 105** problèmes résolus (8.6%)
 
 ```
-██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 7.6%
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 8.6%
 ```
 
-**🟢 Facile** : 8/21 (38.1%)
+**🟢 Facile** : 9/21 (42.9%)
 ```
-███████████░░░░░░░░░░░░░░░░░░░ 38.1%
+████████████░░░░░░░░░░░░░░░░░░ 42.9%
 ```
 
 **🟡 Moyen** : 0/56 (0.0%)
@@ -74,7 +74,7 @@
 | ID | Titre | Statut | Difficulté |
 |---|---|---|---|
 | **GC** | Computing GC Content | ⬜ | 🟢 Facile |
-| **IEV** | Calculating Expected Offspring | ⬜ | 🟢 Facile |
+| **IEV** | Calculating Expected Offspring | ✅ | 🟢 Facile |
 | **PROT** | Translating RNA into Protein | ✅ | 🟢 Facile |
 | **PRTM** | Calculating Protein Mass | ⬜ | 🟢 Facile |
 | **SPLC** | RNA Splicing | ⬜ | 🟢 Facile |

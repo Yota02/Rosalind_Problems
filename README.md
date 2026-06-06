@@ -1,7 +1,7 @@
 # 🧬 Rosalind — Bioinformatics Progress
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Progress-5%2F105-00BFFF" alt="Progress"/>
+  <img src="https://img.shields.io/badge/Progress-0%2F105-00BFFF" alt="Progress"/>
   <img src="https://img.shields.io/badge/Python-3.12+-blue" alt="Python"/>
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
 </div>
@@ -9,15 +9,15 @@
 
 ## 📈 Progression
 
-**5 / 105** problèmes résolus (4.8%)
+**0 / 105** problèmes résolus (0.0%)
 
 ```
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.8%
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.0%
 ```
 
-**🟢 Facile** : 5/21 (23.8%)
+**🟢 Facile** : 0/21 (0.0%)
 ```
-███████░░░░░░░░░░░░░░░░░░░░░░░ 23.8%
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.0%
 ```
 
 **🟡 Moyen** : 0/56 (0.0%)
@@ -36,9 +36,9 @@
 
 | ID | Titre | Statut | Difficulté |
 |---|---|---|---|
-| **DNA** | Counting DNA Nucleotides | ✅ | 🟢 Facile |
-| **RNA** | Transcribing DNA into RNA | ✅ | 🟢 Facile |
-| **REVC** | Complementing a Strand of DNA | ✅ | 🟢 Facile |
+| **DNA** | Counting DNA Nucleotides | ⬜ | 🟢 Facile |
+| **RNA** | Transcribing DNA into RNA | ⬜ | 🟢 Facile |
+| **REVC** | Complementing a Strand of DNA | ⬜ | 🟢 Facile |
 | **HAMM** | Counting Point Mutations | ⬜ | 🟢 Facile |
 | **SUBS** | Finding a Motif in DNA | ⬜ | 🟢 Facile |
 | **REVP** | Locating Restriction Sites | ⬜ | 🟢 Facile |
@@ -55,7 +55,7 @@
 
 | ID | Titre | Statut | Difficulté |
 |---|---|---|---|
-| **FIB** | Rabbits and Recurrence Relations | ✅ | 🟢 Facile |
+| **FIB** | Rabbits and Recurrence Relations | ⬜ | 🟢 Facile |
 | **IPRB** | Mendel's First Law | ⬜ | 🟢 Facile |
 | **PERM** | Enumerating Gene Orders | ⬜ | 🟢 Facile |
 | **PROB** | Introduction to Random Strings | ⬜ | 🟡 Moyen |
@@ -73,7 +73,7 @@
 
 | ID | Titre | Statut | Difficulté |
 |---|---|---|---|
-| **GC** | Computing GC Content | ✅ | 🟢 Facile |
+| **GC** | Computing GC Content | ⬜ | 🟢 Facile |
 | **IEV** | Calculating Expected Offspring | ⬜ | 🟢 Facile |
 | **PROT** | Translating RNA into Protein | ⬜ | 🟢 Facile |
 | **PRTM** | Calculating Protein Mass | ⬜ | 🟢 Facile |

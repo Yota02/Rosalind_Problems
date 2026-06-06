@@ -39,6 +39,7 @@ PROBLEMS = [
     # -- Easy / Combinatorics --
     ("FIB", "Rabbits and Recurrence Relations", "easy", "combinatorics"),
     ("IPRB", "Mendel's First Law", "easy", "combinatorics"),
+    ("PERM", "Enumerating Gene Orders", "easy", "combinatorics"),
     ("PROB", "Introduction to Random Strings", "medium", "combinatorics"),
     ("SIGN", "Enumerating Oriented Gene Orderings", "medium", "combinatorics"),
     ("PPER", "Partial Permutations", "medium", "combinatorics"),
@@ -48,6 +49,7 @@ PROBLEMS = [
     ("RSTR", "Matching Random Motifs", "medium", "combinatorics"),
     ("EVAL", "Expected Number of Restriction Sites", "medium", "combinatorics"),
     ("INDC", "Independent Segregation of Chromosomes", "medium", "combinatorics"),
+    ("ASPC", "Introduction to Alternative Splicing", "medium", "combinatorics"),
     # -- Easy / Sequence Basics --
     ("GC", "Computing GC Content", "easy", "sequence-basics"),
     ("IEV", "Calculating Expected Offspring", "easy", "sequence-basics"),

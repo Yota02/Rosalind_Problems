@@ -1,7 +1,7 @@
 # 🧬 Rosalind — Bioinformatics Progress
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Progress-5%2F103-00BFFF" alt="Progress"/>
+  <img src="https://img.shields.io/badge/Progress-5%2F105-00BFFF" alt="Progress"/>
   <img src="https://img.shields.io/badge/Python-3.12+-blue" alt="Python"/>
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
 </div>
@@ -9,18 +9,18 @@
 
 ## 📈 Progression
 
-**5 / 103** problèmes résolus (4.9%)
+**5 / 105** problèmes résolus (4.8%)
 
 ```
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.9%
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.8%
 ```
 
-**🟢 Facile** : 5/20 (25.0%)
+**🟢 Facile** : 5/21 (23.8%)
 ```
-███████░░░░░░░░░░░░░░░░░░░░░░░ 25.0%
+███████░░░░░░░░░░░░░░░░░░░░░░░ 23.8%
 ```
 
-**🟡 Moyen** : 0/55 (0.0%)
+**🟡 Moyen** : 0/56 (0.0%)
 ```
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.0%
 ```
@@ -53,6 +53,7 @@
 | **📊 Combinatorics & Probability** | | | | | |
 | **FIB** | Rabbits and Recurrence Relations | ✅ | 🟢 Facile | 📊 Combinatorics & Probability | [Voir](python/01-easy/combinatorics/FIB-rabbits-recursion/solution.py) |
 | **IPRB** | Mendel's First Law | ⬜ | 🟢 Facile | 📊 Combinatorics & Probability | — |
+| **PERM** | Enumerating Gene Orders | ⬜ | 🟢 Facile | 📊 Combinatorics & Probability | — |
 | **PROB** | Introduction to Random Strings | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
 | **SIGN** | Enumerating Oriented Gene Orderings | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
 | **PPER** | Partial Permutations | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
@@ -62,6 +63,7 @@
 | **RSTR** | Matching Random Motifs | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
 | **EVAL** | Expected Number of Restriction Sites | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
 | **INDC** | Independent Segregation of Chromosomes | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
+| **ASPC** | Introduction to Alternative Splicing | ⬜ | 🟡 Moyen | 📊 Combinatorics & Probability | — |
 
 | **🧪 Sequence Basics** | | | | | |
 | **GC** | Computing GC Content | ✅ | 🟢 Facile | 🧪 Sequence Basics | [Voir](python/01-easy/combinatorics/GC-computing-gc-content/solution.py) |

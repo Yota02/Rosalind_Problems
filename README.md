@@ -1,7 +1,7 @@
 # 🧬 Rosalind — Bioinformatics Progress
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Progress-4%2F105-00BFFF" alt="Progress"/>
+  <img src="https://img.shields.io/badge/Progress-5%2F105-00BFFF" alt="Progress"/>
   <img src="https://img.shields.io/badge/Python-3.12+-blue" alt="Python"/>
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
 </div>
@@ -9,15 +9,15 @@
 
 ## 📈 Progression
 
-**4 / 105** problèmes résolus (3.8%)
+**5 / 105** problèmes résolus (4.8%)
 
 ```
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.8%
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.8%
 ```
 
-**🟢 Facile** : 4/21 (19.0%)
+**🟢 Facile** : 5/21 (23.8%)
 ```
-█████░░░░░░░░░░░░░░░░░░░░░░░░░ 19.0%
+███████░░░░░░░░░░░░░░░░░░░░░░░ 23.8%
 ```
 
 **🟡 Moyen** : 0/56 (0.0%)
@@ -39,7 +39,7 @@
 | **DNA** | Counting DNA Nucleotides | ✅ | 🟢 Facile |
 | **RNA** | Transcribing DNA into RNA | ✅ | 🟢 Facile |
 | **REVC** | Complementing a Strand of DNA | ✅ | 🟢 Facile |
-| **HAMM** | Counting Point Mutations | ⬜ | 🟢 Facile |
+| **HAMM** | Counting Point Mutations | ✅ | 🟢 Facile |
 | **SUBS** | Finding a Motif in DNA | ⬜ | 🟢 Facile |
 | **REVP** | Locating Restriction Sites | ⬜ | 🟢 Facile |
 | **LEXF** | Enumerating k-mers Lexicographically | ⬜ | 🟢 Facile |
